@@ -2,13 +2,13 @@
   "name": "coreytegeler.github.io",
   "version": "2.0.0",
   "description": "a website",
-  "main": "jquery.js",
+  "main": "pages/index.js",
   "scripts": {
-    "sass:watch": "node-sass -w src/style.scss -o . -s compressed",
-    "sass:prefix": "postcss -w style.css -u autoprefixer -o style.css",
-    "watch": "npm run sass:watch & npm run sass:prefix",
-    "serve": "/usr/local/bin/php -S localhost:8000",
-    "start": "npm run watch & npm run serve"
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint",
+    "import": "./scripts/_import"
   },
   "repository": {
     "type": "git",
@@ -20,10 +20,21 @@
     "url": "https://github.com/coreytegeler/coreytegeler.github.io/issues"
   },
   "homepage": "https://github.com/coreytegeler/coreytegeler.github.io#readme",
-  "devDependencies": {
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
     "autoprefixer": "^10.4.0",
-    "node-sass": "^7.0.0",
+    "neat-csv": "^6.0.1",
+    "next": "12.0.7",
+    "node-sass": "^4.14.1",
+    "papaparse": "^5.3.1",
     "postcss": "^8.4.4",
-    "postcss-cli": "^9.0.2"
+    "postcss-cli": "^9.0.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "slug": "^5.1.0"
+  },
+  "devDependencies": {
+    "eslint": "8.4.0",
+    "eslint-config-next": "12.0.7"
   }
 }
