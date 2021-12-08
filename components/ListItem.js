@@ -30,7 +30,7 @@ export default function ListItem({ data, child }) {
 			{data.url_nice ? 
 				<div>
 					<strong>
-						<small>View at </small>
+						{/*<small>View at </small>*/}
 						<a href={data.url} target="_blank" rel="noreferrer">
 							<small dangerouslySetInnerHTML={{
 								__html: data.url_nice
@@ -59,6 +59,20 @@ export default function ListItem({ data, child }) {
 					<small dangerouslySetInnerHTML={{
 						__html: data.summary
 					}} />
+				</div>
+			: null}
+
+			{data.summary_long ?
+				<div>
+					<details>
+						<summary>
+							<small>Read more</small>
+							<small>Read less</small>
+						</summary>
+						<small dangerouslySetInnerHTML={{
+							__html: data.summary_long
+						}} />
+					</details>
 				</div>
 			: null}
 

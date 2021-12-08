@@ -69,7 +69,7 @@ export default function Home() {
 					<div className="column scroll">
 
 						<section id="collaborations">
-
+							
 							<header>
 								<h2>Collaborations</h2>
 							</header>

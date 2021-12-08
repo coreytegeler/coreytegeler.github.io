@@ -32,6 +32,6 @@ async function importCSV (fileName, resolve) {
     });
   });
   Promise.all(requests).then((fullJSON) => {
-    fs.writeFileSync("./pages/data/data.js", `export default ${JSON.stringify(Object.assign({}, ...fullJSON))}`);
+    fs.writeFileSync("./data/data.js", `export default ${JSON.stringify(Object.assign({}, ...fullJSON))}`);
   });
 })();

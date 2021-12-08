@@ -256,6 +256,10 @@ summary {
 	  margin-left: .5em;
 	  transform: rotate(90deg);
 	}
+	details[open] & small:first-of-type,
+	details:not([open]) & small:last-of-type {
+		display: none;
+	}
 	details[open] &:after {
 	  transform: rotate(-90deg);
 	}
