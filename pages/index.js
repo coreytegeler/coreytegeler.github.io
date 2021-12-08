@@ -1,8 +1,8 @@
 import { useEffect, useState, useRef } from "react";
 import Head from "next/head";
-import Image from "next/image";
-import ListItem from "./components/ListItem";
-import NestedList from "./components/NestedList";
+// import Image from "next/image";
+import ListItem from "../components/ListItem";
+import NestedList from "../components/NestedList";
 import styles from "../styles/Home.module.css";
 import data from "../data/data";
 
