@@ -19,7 +19,7 @@
     "start": "next start",
     "export": "next export",
     "lint": "next lint",
-    "import": "./scripts/_import"
+    "import": "node ./scripts/import"
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",

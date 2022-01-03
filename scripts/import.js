@@ -4,7 +4,7 @@ const slug = require("slug");
 const fs = require("fs");
 
 async function importCSV (fileName, resolve) {
-  const rawCSV = fs.readFileSync(`./data/${fileName}-data.csv`, {
+  const rawCSV = fs.readFileSync(`./data/raw/${fileName}-data.csv`, {
     encoding: "utf8",
     flag: "r",
   });
@@ -32,6 +32,6 @@ async function importCSV (fileName, resolve) {
     });
   });
   Promise.all(requests).then((fullJSON) => {
-    fs.writeFileSync("./pages/_helpers/data.js", `export default ${JSON.stringify(Object.assign({}, ...fullJSON))}`);
+    fs.writeFileSync("./data/data.json", JSON.stringify(Object.assign({}, ...fullJSON)));
   });
 })();

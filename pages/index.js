@@ -1,9 +1,18 @@
 import Header from "./components/Header";
 import Section from "./components/Section";
 import ListItem from "./components/ListItem";
-import { data } from "./_helpers";
 
-export default function Home() {
+import data from "../data/data";
+
+export const getStaticProps = async () => {
+	return {
+		props: {
+			data: data,
+		}
+	}
+}
+
+export default function Home({ data }) {
 
 	return (
 		<div id="page">
