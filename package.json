@@ -3,14 +3,6 @@
   "version": "2.0.0",
   "description": "a website",
   "main": "pages/index.js",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build && next export",
-    "start": "next start",
-    "export": "next export",
-    "lint": "next lint",
-    "import": "./scripts/_import"
-  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/coreytegeler/coreytegeler.github.io.git"
@@ -21,6 +13,14 @@
     "url": "https://github.com/coreytegeler/coreytegeler.github.io/issues"
   },
   "homepage": "https://github.com/coreytegeler/coreytegeler.github.io#readme",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "export": "next export",
+    "lint": "next lint",
+    "import": "./scripts/_import"
+  },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
     "autoprefixer": "^10.4.0",
@@ -32,6 +32,7 @@
     "postcss-cli": "^9.0.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-helmet-async": "^1.2.2",
     "slug": "^5.1.0"
   },
   "devDependencies": {
