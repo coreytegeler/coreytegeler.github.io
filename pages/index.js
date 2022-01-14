@@ -21,13 +21,6 @@ export default function Home({ data }) {
 				<div className="flex">
 					<div className="column scroll">
 						<Section
-							title="Collaborations"
-							slug="collaborations"
-							data={data.collaborations}
-							blurb={<small>Projects rooted in creative partnerships with my collaborators.</small>}
-							className="print-hide"
-						/>
-						<Section
 							title="Commissioned projects"
 							printTitle="Selected clients"
 							slug="commissions"
@@ -52,6 +45,13 @@ export default function Home({ data }) {
 									</div>
 								</>
 							}
+						/>
+						<Section
+							title="Collaborations"
+							slug="collaborations"
+							data={data.collaborations}
+							blurb={<small>Projects rooted in creative partnerships with my collaborators.</small>}
+							className="print-hide"
 						/>
 					</div>
 					<div className="column scroll">
