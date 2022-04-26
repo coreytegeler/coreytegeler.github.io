@@ -13,6 +13,10 @@ export default function ListItem({ data }) {
 				</a>
 			: data.children ? data.name : <strong>{data.name}</strong>}
 
+			{data.new ?
+				<>&nbsp;<small style={{color:"red"}}>NEW</small></>
+			: null}
+
 			{roles.length ?
 				<strong
 					title={`Role${roles.length > 1 ? "s" : ""}: ${roles.join("; ")}`}
