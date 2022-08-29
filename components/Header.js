@@ -10,12 +10,12 @@ export default function Header() {
 						<span className="screen-hide">
 							<a href="coreytegeler.com">coreytegeler.com</a>;&nbsp;
 						</span>
-						<a href="mailto:coreytegeler@gmail.com">coreytegeler@gmail.com</a>
+						<a href="mailto:email@coreytegeler.com">email@coreytegeler.com</a>
 					</p>
 				</div>
 				<div className="column">
 					<p>
-						A New York-based website developer and designer with a focus in public scholarship, non-profit organizations, local government, and the arts.
+						A New York&ndash;based website developer and designer with a focus in academia, non-profit organizations, the public sector, and the arts.
 					</p>
 				</div>
 			</div>

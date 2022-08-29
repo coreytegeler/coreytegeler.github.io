@@ -34,7 +34,7 @@ export default function Home({ data }) {
 									</div>
 									<br />
 									<div>
-										<small>My role in each project is notated according to these symbols:</small>
+										<small>My role in each project is notated with these symbols:</small>
 									</div>
 									<div>
 										<ul className="inline">
