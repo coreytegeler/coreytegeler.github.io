@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
-import "../styles/globals.scss";
+import "../styles/styles.scss";
 import "../styles/print.scss";
 
 function App({ Component, pageProps }) {
