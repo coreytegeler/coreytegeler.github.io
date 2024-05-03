@@ -1,4 +1,14 @@
 name,parent,url,url_nice,url_note,credits,developer,designer,contributor,new
+University of Michigan,,,,,,,,,
+Institute for Social Research,University of Michigan,https://isr.umich.edu/,,,,,,,
+Criminal Justice Administrative Records System (CJARS),Institute for Social Research,https://cjars.org/,,,,,,,
+Justice Outcomes Explorer (JOE),Criminal Justice Administrative Records System (CJARS),https://joe.cjars.org/,joe.cjars.org,,"With United States Census Bureau; design by <a href=""https://www.hyperobjekt.com/"" target=""_blank"">Hyperobjekt</a>",TRUE,,,TRUE
+University of California,,,,,,,,,
+"University of California, Los Angeles (UCLA)",University of California,,,,,,,,
+UCLA School of Law,"University of California, Los Angeles (UCLA)",,,,,,,,
+Critical Race Studies,UCLA School of Law,,,,,,,,
+CRT Forward Tracking Project,Critical Race Studies,https://crtforward.law.ucla.edu/,crtforward.law.ucla.edu,,"Design by <a href=""https://www.hyperobjekt.com/"" target=""_blank"">Hyperobjekt</a>",TRUE,,,TRUE
+The Promise Institute for Human Rights at UCLA School of Law,UCLA School of Law,https://promiseinstitute.law.ucla.edu,promiseinstitute.law.ucla.edu,,"Design by <a href=""https://www.hyperobjekt.com/"" target=""_blank"">Hyperobjekt</a>",TRUE,,,TRUE
 Amnesty International,,,,,,,,,
 Middle East & North Africa Regional Office,Amnesty International,,,,,,,,
 Seventy Years of Suffication,Middle East & North Africa Regional Office,https://nakba.amnesty.org/,nakba.amnesty.org,,"Design by <a href=""https://www.instagram.com/zivschneider/"" target=""_blank"">Ziv Schneider</a>; photos by <a href=""http://tanyahabjouqa.com/"" target=""_blank"">Tanya Habjouqa</a>",TRUE,,,
@@ -31,7 +41,7 @@ Center for Religion & Media,New York University (NYU),,,,,,,,
 The Revealer,Center for Religion & Media,https://therevealer.org,therevealer.org,,,TRUE,TRUE,,
 Princeton University,,,,,,,,,
 ZERO Lab,Princeton University,,,,,,,,
-Rapid Energy Policy Evaluation and Analysis Toolkit (REPEAT),ZERO Lab,https://repeatproject.org,repeatproject.org,,"Design by <a href=""https://www.hyperobjekt.com/"" target=""_blank"">Hyperobjekt</a>; development by Uri Maxima",,,TRUE,TRUE
+Rapid Energy Policy Evaluation and Analysis Toolkit (REPEAT),ZERO Lab,https://repeatproject.org,repeatproject.org,,"Design by <a href=""https://www.hyperobjekt.com/"" target=""_blank"">Hyperobjekt</a>; development by Uri Maxima",,,TRUE,
 State University of New York,,,,,,,,,
 Purchase College,State University of New York,,,,,,,,
 School of Art+Design,Purchase College,,purchase.design,offline,,,,,
@@ -44,12 +54,6 @@ Humanities Action Lab,Rutgers University-Newark,,,,,,,,
 Climates of Inequality,Humanities Action Lab,https://climatesofinequality.org,climatesofinequality.org,,"Design by <a href=""https://www.mtwtf.com/"" target=""_blank"">MTWTF</a>",TRUE,,,
 Rikers Public Memory Project,Humanities Action Lab,https://rikersmemoryproject.org,rikersmemoryproject.org,,,,,TRUE,
 Textile Arts Center,,https://textileartscenter.com,textileartscenter.com,,"Design by <a href=""https://www.halves.studio/"" target=""_blank"">Halves</a>",TRUE,,,
-University of California,,,,,,,,,
-"University of California, Los Angeles (UCLA)",University of California,,,,,,,,
-UCLA School of Law,"University of California, Los Angeles (UCLA)",,,,,,,,
-The Promise Institute for Human Rights at UCLA School of Law,UCLA School of Law,https://promiseinstitute.law.ucla.edu,promiseinstitute.law.ucla.edu,,"Design by <a href=""https://www.hyperobjekt.com/"" target=""_blank"">Hyperobjekt</a>",TRUE,,,TRUE
-Critical Race Studies,UCLA School of Law,,,,,,,,
-CRT Forward Tracking Project,Critical Race Studies,https://crtforward.law.ucla.edu/,crtforward.law.ucla.edu,,"Design by <a href=""https://www.hyperobjekt.com/"" target=""_blank"">Hyperobjekt</a>",TRUE,,,TRUE
 Yale University,,,,,,,,,
 Linguistics Department,Yale University,,,,,,,,
 Yale Grammatical Diversity Project,Linguistics Department,https://ygdp.yale.edu,ygdp.yale.edu,"embedded; <a href=""https://map.ygdp.yale.edu/"" target=""_blank"">view fullscreen</a>","Design by <a href=""https://jackdesignstudio.com/"" target=""_blank"">Jack Design</a>",TRUE,,,
