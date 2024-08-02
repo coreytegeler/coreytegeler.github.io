@@ -1,7 +1,6 @@
 import ListItem from "./ListItem";
 
 export default function Section({title, slug, blurb, data, className, printTitle}) {
-
 	return(
 		<section id={slug} className={className}>
 
@@ -21,7 +20,7 @@ export default function Section({title, slug, blurb, data, className, printTitle
 			: null}
 
 			<ul className="nested">
-				{data.map((row, i) => <ListItem key={i} data={row} />)}
+				{data.filter(row => !row.hidden).map((row, i) => <ListItem key={i} data={row} />)}
 			</ul>
 
 		</section>

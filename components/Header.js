@@ -15,7 +15,7 @@ export default function Header() {
 				</div>
 				<div className="column">
 					<p>
-						A New York&ndash;based website developer and designer with a focus in academia, non-profit organizations, the public sector, and the arts.
+						A New York&ndash;based web developer for public-interest works in academia, non-profits, the arts, and journalism.
 					</p>
 				</div>
 			</div>

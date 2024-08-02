@@ -1,0 +1,64 @@
+name,parent,url,url_nice,url_note,credits,developer,designer,contributor,new,hidden
+University of Michigan,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+Institute for Social Research,University of Michigan,https://isr.umich.edu/,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+Criminal Justice Administrative Records System (CJARS),Institute for Social Research,https://cjars.org/,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+Justice Outcomes Explorer (JOE),Criminal Justice Administrative Records System (CJARS),https://joe.cjars.org/,joe.cjars.org,,"With <a href=""https://www.hyperobjekt.com/"" target=""_blank"">Hyperobjekt</a> and United States Census Bureau",TRUE,FALSE,FALSE,TRUE,FALSE
+University of California,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+"University of California, Los Angeles (UCLA)",University of California,,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+UCLA School of Law,"University of California, Los Angeles (UCLA)",,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+Critical Race Studies,UCLA School of Law,,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+CRT Forward Tracking Project,Critical Race Studies,https://crtforward.law.ucla.edu/,crtforward.law.ucla.edu,,"With by <a href=""https://www.hyperobjekt.com/"" target=""_blank"">Hyperobjekt</a>",TRUE,FALSE,FALSE,TRUE,FALSE
+Stanford University,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+The Educational Opportunity Project,Stanford University,https://edopportunity.org/,edopportunity.org,,,FALSE,FALSE,FALSE,FALSE,FALSE
+The Segregation Explorer,The Educational Opportunity Project,https://edopportunity.org/segregation/,edopportunity.org/segregation,,"With by <a href=""https://www.hyperobjekt.com/"" target=""_blank"">Hyperobjekt</a>",TRUE,FALSE,FALSE,TRUE,FALSE
+The Promise Institute for Human Rights at UCLA School of Law,UCLA School of Law,https://promiseinstitute.law.ucla.edu,promiseinstitute.law.ucla.edu,,"With by <a href=""https://www.hyperobjekt.com/"" target=""_blank"">Hyperobjekt</a>",TRUE,FALSE,FALSE,TRUE,FALSE
+Amnesty International,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+Middle East & North Africa Regional Office,Amnesty International,,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+Seventy Years of Suffication,Middle East & North Africa Regional Office,https://nakba.amnesty.org/,nakba.amnesty.org,,"Design by <a href=""https://www.instagram.com/zivschneider/"" target=""_blank"">Ziv Schneider</a>; photos by <a href=""http://tanyahabjouqa.com/"" target=""_blank"">Tanya Habjouqa</a>",TRUE,FALSE,FALSE,FALSE,FALSE
+Andy Warhol Foundation,,https://warholfoundation.org,warholfoundation.org,,"Design by <a href=""https://wkshps.com/"" target=""_blank"">Wkshps</a>; development by <a href=""https://ericprice.info/"" target=""_blank"">Eric Price</a>",FALSE,FALSE,TRUE,FALSE,TRUE
+Brooklyn Public Library,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+"Strategic Plan 2018, NOW ➞ NEXT",Brooklyn Public Library,https://www.bklynlibrary.org/strategicplan,bklynlibrary.org/strategicplan,embedded,"Design by <a href=""https://www.mtwtf.com/"" target=""_blank"">MTWTF</a>",TRUE,FALSE,FALSE,FALSE,FALSE
+Candid (Foundation Center / GuideStar),,,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+2019 annual report,Candid (Foundation Center / GuideStar),,candid.org/••••••,internal,"Design by <a href=""https://notclosed.com/"" target=""_blank"">Open</a>",TRUE,FALSE,FALSE,FALSE,FALSE
+Institutional style guide,Candid (Foundation Center / GuideStar),,candid.org/••••••,internal,"Design by <a href=""https://notclosed.com/"" target=""_blank"">Open</a>",TRUE,FALSE,FALSE,FALSE,FALSE
+Launch announcement page,Candid (Foundation Center / GuideStar),,candid.org,offline,"Design by <a href=""https://notclosed.com/"" target=""_blank"">Open</a>",TRUE,FALSE,FALSE,FALSE,FALSE
+Center for Architecture,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+Archtober 2018,Center for Architecture,https://2018.archtober.org/,2018.archtober.org,,"Design by <a href=""https://www.mtwtf.com/"" target=""_blank"">MTWTF</a>",TRUE,FALSE,FALSE,FALSE,FALSE
+City of New York,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+Department of Housing Preservation & Development (HPD),City of New York,https://nychvs.cityofnewyork.us/,nychvs.cityofnewyork.us,,"Design by <a href=""https://www.wkshps.com/"" target=""_blank"">Wkshps</a> and <a href=""https://wsdia.com/"" target=""_blank"">WeShouldDoItAll</a>",TRUE,FALSE,FALSE,FALSE,FALSE
+Data & Society,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+Digital Privacy and Data Literacy Project quiz,Data & Society,https://dataprivacyproject.org/quiz,dataprivacyproject.org/quiz,embedded,,FALSE,FALSE,TRUE,FALSE,FALSE
+International Studio & Curatorial Program (ISCP),,https://iscp.org/,iscp.org,,"Design by <a href=""https://othermeans.us/"" target=""_blank"">Other Means</a>",TRUE,FALSE,FALSE,FALSE,FALSE
+"The Institute of Contemporary Art, Philadelphia",,,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+Af·fixing Ceremony: Four Movements for Essex,"The Institute of Contemporary Art, Philadelphia",,icaphila.org/day-without-art-2015,"<a href=""http://affixingceremony2015.tionam.com/"" target=""_blank"">view archived</a>","Project by <a href=""https://www.tionam.com/"" target=""_blank"">Tiona Nekkia McClodden</a>",TRUE,FALSE,FALSE,FALSE,FALSE
+Jersey City Landmarks Conservancy,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+Interactive Tours,Jersey City Landmarks Conservancy,https://jclandmarks.org/interactive-tours,jclandmarks.org/interactive-tours,embedded,,TRUE,TRUE,FALSE,FALSE,FALSE
+Massachusetts Institute of Technology (MIT),,,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+"Art, Culture & Technology Program (MIT ACT)",Massachusetts Institute of Technology (MIT),https://act.mit.edu/,act.mit.edu,,"Design by <a href=""https://wkshps.com/"" target=""_blank"">Wkshps</a>; development by <a href=""https://ericprice.info/"" target=""_blank"">Eric Price</a>",FALSE,FALSE,TRUE,FALSE,TRUE
+MIT Technology Review,Massachusetts Institute of Technology (MIT),,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+The state of artificial intelligence,MIT Technology Review,https://technologyreview.com/2019/01/08/137912/the-state-of-artificial-intelligence/,technologyreview.com/...,"embedded; <a href=""https://s3.amazonaws.com/files.technologyreview.com/iframe/oracle-intel-state-of-ai_01-08-2019/index.html"" target=""_blank"">view fullscreen</a>","Design by <a href=""https://notclosed.com/"" target=""_blank"">Open</a>",TRUE,FALSE,FALSE,FALSE,FALSE
+The New School,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+Mellon Initiative for Inclusive Faculty Excellence,The New School,https://mellon.newschool.org/,mellon.newschool.org,,,TRUE,TRUE,FALSE,FALSE,FALSE
+New York University (NYU),,,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+Center for Religion & Media,New York University (NYU),,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+The Revealer,Center for Religion & Media,https://therevealer.org,therevealer.org,,,TRUE,TRUE,FALSE,FALSE,FALSE
+Princeton University,,,,,,FALSE,FALSE,FALSE,FALSE,TRUE
+ZERO Lab,Princeton University,,,,,FALSE,FALSE,FALSE,FALSE,TRUE
+Rapid Energy Policy Evaluation and Analysis Toolkit (REPEAT),ZERO Lab,https://repeatproject.org,repeatproject.org,,"Design by <a href=""https://www.hyperobjekt.com/"" target=""_blank"">Hyperobjekt</a>; development by Uri Maxima",FALSE,FALSE,TRUE,FALSE,TRUE
+State University of New York,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+Purchase College,State University of New York,,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+School of Art+Design,Purchase College,,purchase.design,offline,,FALSE,FALSE,FALSE,FALSE,FALSE
+Graphic Design BFA Program,School of Art+Design,,,,"Built with students of Purchase College’s Graphic Design, New Media, and Arts Management programs; led by Professor <a href=""https://www.pratt.edu/faculty_and_staff/bio/?id=jwexler"" target=""_blank"">Jessica Wexler</a>",TRUE,TRUE,FALSE,FALSE,FALSE
+Red Bull Music Academy (RBMA),,,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+Tokyo 2014 Announcement,Red Bull Music Academy (RBMA),,rbma2014participants.com,"<a href=""https://coreytegeler.com/rbma/"" target=""_blank"">view archived</a>","Design by <a href=""https://othermeans.us/"" target=""_blank"">Other Means</a> and <a href=""https://sashaportis.com/"" target=""_blank"">Sasha Portis</a>",TRUE,TRUE,FALSE,FALSE,FALSE
+"Rutgers, The State University of New Jersey",,,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+Rutgers University-Newark,"Rutgers, The State University of New Jersey",,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+Humanities Action Lab,Rutgers University-Newark,,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+Climates of Inequality,Humanities Action Lab,https://climatesofinequality.org,climatesofinequality.org,,"Design by <a href=""https://www.mtwtf.com/"" target=""_blank"">MTWTF</a>",TRUE,FALSE,FALSE,FALSE,FALSE
+Rikers Public Memory Project,Humanities Action Lab,https://rikersmemoryproject.org,rikersmemoryproject.org,,,FALSE,FALSE,TRUE,FALSE,FALSE
+Textile Arts Center,,https://textileartscenter.com,textileartscenter.com,,"Design by <a href=""https://www.halves.studio/"" target=""_blank"">Halves</a>",TRUE,FALSE,FALSE,FALSE,FALSE
+Yale University,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+Linguistics Department,Yale University,,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+Yale Grammatical Diversity Project,Linguistics Department,https://ygdp.yale.edu,ygdp.yale.edu,"embedded; <a href=""https://map.ygdp.yale.edu/"" target=""_blank"">view fullscreen</a>","Design by <a href=""https://jackdesignstudio.com/"" target=""_blank"">Jack Design</a>",TRUE,FALSE,FALSE,FALSE,FALSE
+School of Architecture,Yale University,,,,,FALSE,FALSE,FALSE,FALSE,FALSE
+New Haven Building Archive,School of Architecture,,nhba.yale.edu,offline,"Design by <a href=""https://sashaportis.com/"" target=""_blank"">Sasha Portis</a> and <a href=""https://www.benfehrmanlee.info/"" target=""_blank"">Ben Fehrman-Lee</a>",TRUE,FALSE,FALSE,FALSE,FALSE

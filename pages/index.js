@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import Section from "../components/Section";
 import ListItem from "../components/ListItem";
 
-import data from "../data/data";
+import data from "../data/site";
 
 export const getStaticProps = async () => {
 	return {
