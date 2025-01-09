@@ -1,18 +1,9 @@
 import Header from "../components/Header";
 import Section from "../components/Section";
-import ListItem from "../components/ListItem";
 
 import data from "../data/site";
 
-export const getStaticProps = async () => {
-	return {
-		props: {
-			data: data,
-		}
-	}
-}
-
-export default function Home({ data }) {
+export default function Home() {
 
 	return (
 		<div id="page">
