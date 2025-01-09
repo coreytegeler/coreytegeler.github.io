@@ -13,7 +13,7 @@
 		</div>
 		<div class="column">
 			<p>
-				A New York&ndash;based web developer for public-interest works in academia, non-profits, the arts, and journalism.
+				New York web developer for public-interest works in academia, non-profits, the arts, and journalism.
 			</p>
 		</div>
 	</div>
