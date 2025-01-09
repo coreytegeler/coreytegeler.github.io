@@ -1,7 +1,0 @@
-$bg-dur: 30000ms;
-
-@mixin desktop {
-	@media screen and (min-width: 740px) {
-		@content;
-	}
-}

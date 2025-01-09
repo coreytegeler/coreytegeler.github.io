@@ -1,12 +1,11 @@
-const Papa = require("papaparse");
-const neatCsv = require("neat-csv");
-const slug = require("slug");
-const fs = require("fs");
+import neatCsv  from "neat-csv";
+import slug  from "slug";
+import fs from "fs";
 
 const BOOLEAN_FIELDS = ["developer", "designer", "contributor", "new", "hidden"]
 
 async function importCSV (fileName, resolve) {
-	const rawCSV = fs.readFileSync(`./data/csv/${fileName}.csv`, {
+	const rawCSV = fs.readFileSync(`./data/${fileName}.csv`, {
 		encoding: "utf8",
 		flag: "r",
 	});
@@ -45,7 +44,7 @@ async function importCSV (fileName, resolve) {
 		});
 	});
 	Promise.all(requests).then((fullJSON) => {
-		fs.writeFileSync("./data/site.json", JSON.stringify(Object.assign({}, ...fullJSON)));
+		fs.writeFileSync("./src/lib/data/site.json", JSON.stringify(Object.assign({}, ...fullJSON)));
 	});
 	console.log("Updated site.json file!")
 })();
