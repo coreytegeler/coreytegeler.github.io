@@ -37,7 +37,7 @@ async function importCSV (fileName, resolve) {
 }
 
 (async () => {
-	const fileNames = ["commissions", "collaborations", "nonprofit", "teaching", "workshops"];
+	const fileNames = ["commissions", "collaborations", "positions", "teaching", "workshops"];
 	let requests = fileNames.map((fileName) => {
 		return new Promise((resolve) => {
 			importCSV(fileName, resolve);

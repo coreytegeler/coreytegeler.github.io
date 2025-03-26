@@ -84,9 +84,9 @@
 		</div>
 		<div class="column scroll">
 			<Section
-				title="Non-profit positions"
-				slug="nonprofit"
-				items={data.nonprofit}
+				title="Positions"
+				slug="positions"
+				items={data.positions}
 			/>
 	
 			<Section
