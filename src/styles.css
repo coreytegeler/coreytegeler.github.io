@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap');
-
 * {
 	box-sizing: border-box;
 }
-
 ::-webkit-scrollbar {
 	width: 5px;
 }
@@ -16,41 +14,34 @@
 ::-webkit-scrollbar-thumb:hover {
 	background: rgba(0,0,0,1);
 }
-
 html, body, main {
 	height: 100%;
 }
-
 html, body {
 	background-color: transparent;
 	@media screen and (min-width: 740px) {
 		overflow: hidden;
 	}
 }
-
 html {
 	font-family: 'IBM Plex Mono', monospace;
 	font-size: 14px;
 	line-height: 1.2em;
 	color: rgba(0,0,0,.85);
 }
-
 body {
 	margin: 0;
 	transition: background-color var(--bg-dur) linear;
 }
-
 h1, h2, h3, h4 {
 	font-family: 'Old Standard TT', serif;
 	margin: 0;
 	display: inline-block;
 }
-
 h1, h2 {
 	font-size: 1.75rem;
 	font-weight: normal;
 }
-
 a {
 	color: inherit;
 	text-decoration: none;
@@ -61,26 +52,21 @@ a {
 a:hover {
 	text-decoration-color: rgba(0,0,0,.5);
 }
-
 p {
 	margin: .5rem 0;
 }
 p:last-child {
 	margin-bottom: 0;
 }
-
 strong {
 	font-weight: 500;
 }
-
 s {
 	text-decoration-color: rgba(0,0,0,.5);
 }
-
 small {
 	font-size: .9rem;
 }
-
 ul {
 	margin: 0;
 	padding: 0;
@@ -88,12 +74,10 @@ ul {
 ul:not(:last-child) {
 	margin-bottom: 1rem;
 }
-
 li {
 	list-style: none;
 	position: relative;
 }
-
 #page {
 	width: 100%;
 	@media screen and (min-width: 740px) {
@@ -102,7 +86,6 @@ li {
 		flex-direction: column;
 	}
 }
-
 header#header {
 	padding: 2rem 0;
 	border-bottom: 1px solid black;
@@ -120,30 +103,29 @@ header#header .column {
 		padding: 0 3rem;
 	}
 }
-
 main {
 	overflow: hidden;
 	display: flex;
     flex-direction: column;
 }
-
 .flex {
 	display: flex;
 	flex-wrap: wrap;
 }
 main > .flex {
 	flex: 1;
-	overflow: hidden;
+	overflow-y: auto;
+	@media screen and (min-width: 740px) {
+		overflow: hidden;
+	}
 }
-
 .column {
 	width: 100%;
-	height: 100%;
 	@media screen and (min-width: 740px) {
+		height: 100%;
 		width: 50%;
 	}
 }
-
 .scroll {
 	@media screen and (min-width: 740px) {
 		overflow-y: scroll;
@@ -155,7 +137,6 @@ main > .flex {
 		border-right: 1px solid;
 	}
 }
-
 section {
 	padding: 2rem;
 	position: relative;
@@ -173,15 +154,12 @@ section:last-of-type {
 		border-bottom: 0;
 	}
 }
-
 aside {
 	margin-bottom: 1rem;
 }
-
 [title] {
 	cursor: help;
 }
-
 ul.nested {
 
 }
@@ -229,14 +207,12 @@ ul.nested > li li:not(:last-child)::after {
 	top: .5rem;
 	background-color: black;
 }
-
 ul.inline {
 	display: inline-block;
 }
 ul.inline li {
 	display: inline-block;
 }
-
 details {
 	white-space: pre-line;
 }
