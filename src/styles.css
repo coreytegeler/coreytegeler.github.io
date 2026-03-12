@@ -78,6 +78,9 @@ li {
 	list-style: none;
 	position: relative;
 }
+.new {
+	color: red;
+}
 #page {
 	width: 100%;
 	@media screen and (min-width: 740px) {

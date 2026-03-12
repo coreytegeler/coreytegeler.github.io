@@ -29,23 +29,33 @@
 		{/if}
 	{/if}
 	{#if item.new}
-		&nbsp;<small style={{color:"red"}}>NEW</small>
+		&nbsp;<small class="new">NEW</small>
 	{/if}
 	{#if roles.length}
-		<strong
-			title={`Role${roles.length > 1 ? "s" : ""}: ${roles.join("; ")}`}
-			class="print-hide"
-		>
-			{#each roles as role}
-				{#if role === "Developer"}
-					&nbsp;*
-				{:else if role === "Designer"}
-					&nbsp;‡
-				{:else if role === "Contributing developer"}
-					&nbsp;§
-				{/if}
-			{/each}
-		</strong>
+		
+		{#each roles as role}
+			<span>
+				<strong
+					title={role === "developer" ?
+							"* = Developer"
+						: role === "designer" ?
+							"‡ = Designer"
+						: role === "contributor" ?
+							"§ = Contributing developer"
+						: null
+					}
+					class="print-hide"
+				>
+					{#if role === "developer"}
+						*
+					{:else if role === "designer"}
+						&nbsp;‡
+					{:else if role === "contributor"}
+						&nbsp;§
+					{/if}
+				</strong>
+			</span>
+		{/each}
 	{/if}
 	{#if item.url_nice}
 		<div>
